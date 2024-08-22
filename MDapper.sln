@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDapper.Application", "src\MDapper.Application\MDapper.Application.csproj", "{06393706-D60F-438B-A784-84A31648A958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.Application", "src\MDapper.Application\MDapper.Application.csproj", "{06393706-D60F-438B-A784-84A31648A958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDapper.Domain", "src\MDapper.Domain\MDapper.Domain.csproj", "{EE219949-5F98-4D50-9FB2-07A663B9700A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.Domain", "src\MDapper.Domain\MDapper.Domain.csproj", "{EE219949-5F98-4D50-9FB2-07A663B9700A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDapper.Persistance", "src\MDapper.Persistance\MDapper.Persistance.csproj", "{96DA31DE-7B2D-4650-A2F5-E9F43ABF8CEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.Persistance", "src\MDapper.Persistance\MDapper.Persistance.csproj", "{96DA31DE-7B2D-4650-A2F5-E9F43ABF8CEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDapper.Infrastructure", "src\MDapper.Infrastructure\MDapper.Infrastructure.csproj", "{2D2E9099-419E-4586-8525-4E66A4F67911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.Infrastructure", "src\MDapper.Infrastructure\MDapper.Infrastructure.csproj", "{2D2E9099-419E-4586-8525-4E66A4F67911}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDapper.WebApi", "MDapper.WebApi\MDapper.WebApi.csproj", "{C10403A5-73D2-4100-89FB-1B538C69D5F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.WebApi", "src\MDapper.WebApi\MDapper.WebApi.csproj", "{C10403A5-73D2-4100-89FB-1B538C69D5F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1579F1A-1156-4BF5-9433-2DB3D6B851A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4014DBBE-8E3E-4FA6-9B1D-C65802748791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DBABD6F3-C5E9-486A-B454-2D53DD6ED1D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{11DA537F-DCE8-4AA2-AFBA-A48824529009}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +50,16 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06393706-D60F-438B-A784-84A31648A958} = {4014DBBE-8E3E-4FA6-9B1D-C65802748791}
+		{EE219949-5F98-4D50-9FB2-07A663B9700A} = {4014DBBE-8E3E-4FA6-9B1D-C65802748791}
+		{96DA31DE-7B2D-4650-A2F5-E9F43ABF8CEF} = {DBABD6F3-C5E9-486A-B454-2D53DD6ED1D6}
+		{2D2E9099-419E-4586-8525-4E66A4F67911} = {DBABD6F3-C5E9-486A-B454-2D53DD6ED1D6}
+		{C10403A5-73D2-4100-89FB-1B538C69D5F0} = {11DA537F-DCE8-4AA2-AFBA-A48824529009}
+		{4014DBBE-8E3E-4FA6-9B1D-C65802748791} = {B1579F1A-1156-4BF5-9433-2DB3D6B851A9}
+		{DBABD6F3-C5E9-486A-B454-2D53DD6ED1D6} = {B1579F1A-1156-4BF5-9433-2DB3D6B851A9}
+		{11DA537F-DCE8-4AA2-AFBA-A48824529009} = {B1579F1A-1156-4BF5-9433-2DB3D6B851A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F880AD8B-329A-4CC9-BE85-CDC1F879EDEA}
