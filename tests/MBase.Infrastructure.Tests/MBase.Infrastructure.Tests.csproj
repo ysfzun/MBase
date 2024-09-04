@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MDapper.Infrastructure\MBase.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\MBase.Infrastructure\MBase.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

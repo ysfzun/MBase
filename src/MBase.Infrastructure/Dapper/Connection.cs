@@ -13,7 +13,7 @@ namespace MBase.Infrastructure.Dapper
             return dbConnection;
         }
 
-        public Connection<TDbConnection> SetConnectionName(string connectionString)
+        public Connection<TDbConnection> SetConnectionString(string connectionString)
         {
             dbConnection.ConnectionString = connectionString;
 

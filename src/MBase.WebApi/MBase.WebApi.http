@@ -1,0 +1,6 @@
+@MBase.WebApi_HostAddress = http://localhost:5157
+
+GET {{MBase.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

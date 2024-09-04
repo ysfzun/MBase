@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MDapper.Application\MBase.Application.csproj" />
+    <ProjectReference Include="..\MBase.Domain\MBase.Domain.csproj" />
   </ItemGroup>
 
 </Project>

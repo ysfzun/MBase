@@ -9,9 +9,9 @@ namespace MBase.Infrastructure.Dapper.Npgsql
             return await connection.QueryAsync<T>(query);
         }
 
-        public void SetConnectionName(string connectionName)
+        public void SetConnectionString(string connectionName)
         {
-            connection.SetConnectionName(connectionName);
+            connection.SetConnectionString(connectionName);
         }
     }
 }

@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MDapper.Application\MBase.Application.csproj" />
+    <ProjectReference Include="..\MBase.Application\MBase.Application.csproj" />
   </ItemGroup>
 
 </Project>
