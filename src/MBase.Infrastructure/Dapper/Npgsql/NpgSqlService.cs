@@ -2,7 +2,7 @@
 
 namespace MBase.Infrastructure.Dapper.Npgsql
 {
-    public class NpgSqlService(Connection<NpgsqlConnection> connection) : IDapperService
+    public class NpgSqlService(IConnection<NpgsqlConnection> connection) : IDapperService
     {
         public async Task<IEnumerable<T?>> Query<T>(string query)
         {

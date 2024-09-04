@@ -4,7 +4,19 @@ using Dapper;
 
 namespace MBase.Infrastructure.Dapper
 {
-    public abstract class Connection<TDbConnection>(TDbConnection dbConnection) where TDbConnection : DbConnection
+    public interface IConnection<TDbConnection> where TDbConnection : DbConnection
+    {
+        IDbConnection GetConnection();
+        Connection<TDbConnection> SetConnectionString(string connectionString);
+        Task<IEnumerable<T>> QueryAsync<T>(string query);
+        Task<IEnumerable<T>> QueryAsync<T>(string query, object parameters);
+        Task<int> ExecuteAsync(string query);
+        Task<int> ExecuteAsync(string query, object parameters);
+        Task OpenAsync();
+        Task CloseAsync();
+    }
+
+    public class Connection<TDbConnection>(TDbConnection dbConnection) : IConnection<TDbConnection> where TDbConnection : DbConnection
     {
         public string ConnectionString => dbConnection.ConnectionString;
 
