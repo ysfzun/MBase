@@ -1,6 +1,6 @@
 ﻿using Npgsql;
 
-namespace MDapper.Infrastructure.Dapper.Npgsql
+namespace MBase.Infrastructure.Dapper.Npgsql
 {
     public class NpgSqlService(Connection<NpgsqlConnection> connection) : IDapperService
     {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MDapper.WebApi.Controllers
+namespace MBase.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

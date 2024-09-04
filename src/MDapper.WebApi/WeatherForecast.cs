@@ -1,4 +1,4 @@
-namespace MDapper.WebApi
+namespace MBase.WebApi
 {
     public class WeatherForecast
     {

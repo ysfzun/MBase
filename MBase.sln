@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.Application", "src\MDapper.Application\MDapper.Application.csproj", "{06393706-D60F-438B-A784-84A31648A958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MBase.Application", "src\MDapper.Application\MBase.Application.csproj", "{06393706-D60F-438B-A784-84A31648A958}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.Domain", "src\MDapper.Domain\MDapper.Domain.csproj", "{EE219949-5F98-4D50-9FB2-07A663B9700A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mbase.Domain", "src\MDapper.Domain\Mbase.Domain.csproj", "{EE219949-5F98-4D50-9FB2-07A663B9700A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.Persistance", "src\MDapper.Persistance\MDapper.Persistance.csproj", "{96DA31DE-7B2D-4650-A2F5-E9F43ABF8CEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MBase.Persistance", "src\MDapper.Persistance\MBase.Persistance.csproj", "{96DA31DE-7B2D-4650-A2F5-E9F43ABF8CEF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.Infrastructure", "src\MDapper.Infrastructure\MDapper.Infrastructure.csproj", "{2D2E9099-419E-4586-8525-4E66A4F67911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MBase.Infrastructure", "src\MDapper.Infrastructure\MBase.Infrastructure.csproj", "{2D2E9099-419E-4586-8525-4E66A4F67911}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDapper.WebApi", "src\MDapper.WebApi\MDapper.WebApi.csproj", "{C10403A5-73D2-4100-89FB-1B538C69D5F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MBase.WebApi", "src\MDapper.WebApi\MBase.WebApi.csproj", "{C10403A5-73D2-4100-89FB-1B538C69D5F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1579F1A-1156-4BF5-9433-2DB3D6B851A9}"
 EndProject
@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5D7AD0FA-D672-443B-A182-48C24680DEB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDapper.Infrastructure.Tests", "tests\MDapper.Infrastructure.Tests\MDapper.Infrastructure.Tests.csproj", "{7A31ECD0-E53D-4FB7-8A21-7BFB10631633}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MBase.Infrastructure.Tests", "tests\MDapper.Infrastructure.Tests\MBase.Infrastructure.Tests.csproj", "{7A31ECD0-E53D-4FB7-8A21-7BFB10631633}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

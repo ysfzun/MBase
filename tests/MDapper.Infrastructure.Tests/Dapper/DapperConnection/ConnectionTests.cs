@@ -1,11 +1,11 @@
-﻿using Dapper;
+﻿using System.Data.Common;
+using Dapper;
+using MBase.Infrastructure.Dapper;
 using Moq;
-using System.Data.Common;
 using Moq.Dapper;
 using Xunit;
-using MDapper.Infrastructure.Dapper;
 
-namespace MDapper.Infrastructure.Tests.Dapper.DapperConnection
+namespace MBase.Infrastructure.Tests.Dapper.DapperConnection
 {
     public class ConnectionTests
     {

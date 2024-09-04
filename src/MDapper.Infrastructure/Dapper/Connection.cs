@@ -1,8 +1,8 @@
-﻿using System.Data.Common;
-using System.Data;
+﻿using System.Data;
+using System.Data.Common;
 using Dapper;
 
-namespace MDapper.Infrastructure.Dapper
+namespace MBase.Infrastructure.Dapper
 {
     public abstract class Connection<TDbConnection>(TDbConnection dbConnection) where TDbConnection : DbConnection
     {

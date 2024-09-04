@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MDapper.Infrastructure\MDapper.Infrastructure.csproj" />
-    <ProjectReference Include="..\MDapper.Persistance\MDapper.Persistance.csproj" />
+    <ProjectReference Include="..\MDapper.Infrastructure\MBase.Infrastructure.csproj" />
+    <ProjectReference Include="..\MDapper.Persistance\MBase.Persistance.csproj" />
   </ItemGroup>
 
 </Project>
